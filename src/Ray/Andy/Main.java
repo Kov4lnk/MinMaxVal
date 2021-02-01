@@ -27,6 +27,10 @@ public class Main {
                 System.out.println("Min is " + min);
                 break;
             }
+
+            scanner.nextLine(); //handle input
         }
+
+        scanner.close();
     }
 }
